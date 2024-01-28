@@ -1,0 +1,30 @@
+NOTE: I use MacOS
+
+Ping System
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/ping
+
+Add Drink Item - (Make sure to add doubles for volume and price, and ints for expiry month, day, and year)
+curl -i -H "Content-Type: application/json" -X POST -d '{"consumableName": "....", "consumableNotes": "....", "consumablePrice": "1", "expiryMonth": "1", "expiryDay": "1", "expiryYear": "1", "isDrink": "true", "volume": "1"}' localhost:8080/addDrinkItem
+
+Add Food Item - (Make sure to add doubles for volume and price, and ints for expiry month, day, and year)
+curl -i -H "Content-Type: application/json" -X POST -d '{"consumableName": "....", "consumableNotes": "....", "consumablePrice": "...", "expiryMonth": "...", "expiryDay": "...", "expiryYear": "...", "isDrink": "false", "weight": "..."}' localhost:8080/addFoodItem
+
+List all Items
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listAll
+
+List all expired items
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listExpired
+
+List all items expiring within 7 days
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listExpiringIn7Days
+
+List all non expired items
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listNonExpired
+
+Remove an item
+curl -i -H "Content-Type: application/json" -X POST localhost:8080/removeItem/{id}
+
+
+
+
+

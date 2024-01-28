@@ -1,0 +1,40 @@
+
+Operation 1. (List All Items)
+
+1. By default all items should already be shown at the beginning of the program
+2. If not simply click the "All" button which is located in the top half of the main GUI
+
+Operation 2. (Add a new item)
+
+1. Click the "Add Item" button which is located in the bottom half of the main GUI 
+2. Using the combobox, textfields, and datePicker fill out valid information for your new item
+3. Once done press the "Add" button which is located in the bottom half of the Add Item GUI
+4. If you get a warning press "Okay" and fix the issue the warning acknowledged and press "Add"
+5. The item should now be added
+
+Operation 3. (Remove Item)
+
+
+1. Click the "All" button in the top half of the main GUI
+2. If there are items in the tracker you will see those items in the GUI along with a "Remove" button to the right of each item 
+3. Each remove button should have a number which aligns with a number with every item
+4. If you do not see any items first you need to add an item then come back to this part
+5. Choose an item you want to remove and note down its number
+6. Look to the right of that item or match the item number to the remove button number and click the button 
+7. The item should now be removed
+
+Operation 4. (List expired item)
+
+1. Click the "Expired" button located in the top of the main GUI 
+
+Operation 5. (List items that are not expired)
+
+1. Click the "Not Expired" button located in the top of the main GUI 
+
+Operation 6. (List items expiring in 7 days)
+
+1. Click the "Expires Within 7 Days" button located in the top of the main GUI 
+
+Operation 7. (Exit)
+
+1. Click the "x" button located in the top left (depending on which OS you use) of the main GUI which is created by the JFrame not me

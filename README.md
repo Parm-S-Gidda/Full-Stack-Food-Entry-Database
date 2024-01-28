@@ -1,1 +1,0 @@
-# Full-Stack-Food-Entry-Database
